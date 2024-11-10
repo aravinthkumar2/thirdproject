@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/shirts-Images/pink.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+</head>
+<body>
+	
+    <!--navbar-->
+	<nav class="one">
+		<!--menu-->
+		<div class="icons" onclick="shownavbar()">
+			<i class="fa-solid fa-bars fa-lg"></i>
+		</div>
+		
+	
+		
+		<div class="nav-bar">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="Collections.html">Collections</a></p>
+			<p><a href="Contact.html">Contact Us</a></p> 
+		</div>
+		<!--card-->
+		<div class="card-icon" >
+			<div class="number">0</div>
+			<i class="fas fa-shopping-cart fa-2x" style="color: #333;" onclick="showcard()"></i>
+		</div>
+		
+	</nav>
+		<!--card-Items-->
+	   <div class="cart ">
+			<div class="cart-title">Cart Items</div>
+				<div class="cart-content">
+				</div>
+	
+		<div class="total">
+			<div class="total-title">Total</div>
+			<div class="total-price">Rs.0</div>
+		</div> 
+			<button class="btn-buy">Place Order</button>
+			<div class="cart-close"><i class="fa-solid fa-x fa-lg" onclick="closecard()"></i></div>
+		</div>
+        <!--menubar-->
+		<div class="side-navbar">
+            <p style="color: white;text-align: right;padding:30px;">
+                <i class="fa-solid fa-x" onclick="shownavbarclose()"></i>
+            </p>
+            <div class="nav-barlinks">
+              <p><a href="index.html">Home</a></p>
+              <p><a href="Collections.html">Collections</a></p>
+              <p><a href="Collection.html">T-Shirts</a></p>
+              <p><a href="Collection2.html">Men's Shirts</a></p>
+              <p><a href="Collection5.html">Womens Sarees</a></p>
+              <p><a href="Collection6.html">Children-Dress</a></p>
+              <p><a href="Collection7.html"> Perfumes</a></p>
+              <p><a href="Collection4.html">Shoes</a></p>
+              <p><a href="Collection3.html">Home-Appliance</a></p>
+              <p><a href="Collection8.html">Fashion-Dress</a></p>
+           
+          </div>
+        </div>
+    <!--side-navabar-->
+	<div class="side-navbar">
+        <p style="color: white;text-align: right;padding:30px;">
+            <i class="fa-solid fa-x" onclick="shownavbarclose()"></i>
+        </p>
+        <div class="nav-barlinks">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="Collections.html">Collections</a></p>
+            <p><a href="Contact.html">Contact Us</a></p>
+        </div>
+    </div>
+    <!--search bar-->
+	
+    <div>
+        <form id="six">
+            <input type="text" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+       
+    </div>
+    <!--collection images-->
+	<div class="container">
+        <div class="shop-content">
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/red.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Red Shirt</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/white.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">White Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/green.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green Shirt</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Navy Shirt</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/orange.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Orange Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/pink.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Pink Shirt</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Brown Shirt</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/yellow.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Yellow Shirt</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/skyblue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Blue Shirt</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+        </div>
+      </div>
+     
+     
+      
+	
+   </div>
+   <script src=""></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/perfume-Images/Collection.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="Collections.css">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+</head>
+<body>
+	
+    <!--navbar-->
+	<nav class="one">
+		<!--menu-->
+		<div class="icons" onclick="shownavbar()">
+			<i class="fa-solid fa-bars fa-lg"></i>
+		</div>
+		
+	
+		
+		<div class="nav-bar">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="Collections.html">Collections</a></p>
+			<p><a href="Contact.html">Contact Us</a></p> 
+		</div>
+		<!--card-->
+		<div class="card-icon" >
+			<div class="number">0</div>
+			<i class="fas fa-shopping-cart fa-2x" style="color: #333;" onclick="showcard()"></i>
+		</div>
+		
+	</nav>
+		<!--card-Items-->
+	   <div class="cart ">
+			<div class="cart-title">Cart Items</div>
+				<div class="cart-content">
+				</div>
+	
+		<div class="total">
+			<div class="total-title">Total</div>
+			<div class="total-price">Rs.0</div>
+		</div> 
+			<button class="btn-buy">Place Order</button>
+			<div class="cart-close"><i class="fa-solid fa-x fa-lg" onclick="closecard()"></i></div>
+		</div>
+        <!--menubar-->
+		<div class="side-navbar">
+            <p style="color: white;text-align: right;padding:30px;">
+                <i class="fa-solid fa-x" onclick="shownavbarclose()"></i>
+            </p>
+            <div class="nav-barlinks">
+              <p><a href="index.html">Home</a></p>
+              <p><a href="Collections.html">Collections</a></p>
+              <p><a href="Collection.html">T-Shirts</a></p>
+              <p><a href="Collection2.html">Men's Shirts</a></p>
+              <p><a href="Collection5.html">Womens Sarees</a></p>
+              <p><a href="Collection6.html">Children-Dress</a></p>
+              <p><a href="Collection7.html"> Perfumes</a></p>
+              <p><a href="Collection4.html">Shoes</a></p>
+              <p><a href="Collection3.html">Home-Appliance</a></p>
+              <p><a href="Collection8.html">Fashion-Dress</a></p>
+           
+          </div>
+        </div>
+    <!--side-navabar-->
+	<div class="side-navbar">
+        <p style="color: white;text-align: right;padding:30px;">
+            <i class="fa-solid fa-x" onclick="shownavbarclose()"></i>
+        </p>
+        <div class="nav-barlinks">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="Collection.html">Collections</a></p>
+            <p><a href="Contact.html">Contact Us</a></p>
+        </div>
+    </div>
+    <!--search bar-->
+	
+    <div>
+        <form id="six">
+            <input type="text" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+       
+    </div>
+    <!--collection images-->
+
+	<!--childrends-->
+	<div class="container">
+        <div class="shop-content">
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Violet dress</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/white.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">White dress</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/green.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green dress</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Light Blue dress</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/3.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">DarkBlue dress</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/pink.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Pink</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Violet dress</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/5.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">white violet dress</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/children-Images/pink2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">DarkPink dress</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+	<!--fashion-->
+ 
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">white modern-dress</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Black modern-dress</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">violet modern-dress</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion3.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Brown modern-dress</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion4.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green modern-dress</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion5.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Light black modern-dress</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion6.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Dark Black modern-dress</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion7.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Orange modern-dress</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/fashion-Images/fashion8.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">light-Blue modern-dress</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+       
+	
+      <!--t-shirts-->
+     
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/black.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Black T-Shirt</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/white.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">White T-Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/green.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green T-Shirt</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/navy.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">NavyT-Shirt</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/orange.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Orange T-Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/pink.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Pink T-Shirt</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/red.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Red T-Shirt</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/yellow.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Yellow T-Shirt</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/T-shirts-Images/blue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Sky Blue</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+        
+	<!--saress-->
+   
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/black.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Black Saree</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/violot.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Violot Saree</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green Saree</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Navy Saree</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/orange.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Orange Saree</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/pink.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Pink Saree</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/red.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Red Saree</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/pink3.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Blue Saree</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/sarees-Images/skyblue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">SkyBlue Saree</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+        
+    <!--shirts-->
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/red.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Red Shirt</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/white.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">White Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/green.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green Shirt</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Navy Shirt</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/orange.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Orange Shirt</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/pink.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Pink Shirt</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Brown Shirt</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/yellow.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Yellow Shirt</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shirts-Images/skyblue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Blue Shirt</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+        
+     
+    <!--perfume-->
+    
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p4.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Woody</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p5.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Citrus</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p6.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Gourmand</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p7.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Floral</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/8.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Fruity</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Aquatic</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/p3.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Rose</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/perfume-Images/9.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Fresh</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+       
+	
+    <!--shoes-->
+   
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/black.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Black Shoe</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/white.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">White Shoe</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/green.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Green Shoe</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/green2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Dark-Green Shoe</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/violet.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Violet Shoe</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/skyblue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Skyblue Shoe</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/red.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Red Shoe</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/brown.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Brown Shoe</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/shoes-Images/darkblue.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">DarkBlue Shoe</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+       
+    
+    <!--Home Application-->
+    
+    
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/1.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Iron-box</h2>
+            <span class="food-price">$499</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/2.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Washing Machine</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/3.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Mixer Grinder(black)</h2>
+            <span class="food-price">$299</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/4.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Griller machine</h2>
+            <span class="food-price">$699</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/5.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Cooker</h2>
+            <span class="food-price">$599</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/6.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">kettle</h2>
+            <span class="food-price">$475</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/7.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">refrigerator</h2>
+            <span class="food-price">$799</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/8.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Mixer(red)</h2>
+            <span class="food-price">$429</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+          <div class="food-box">
+            <div class="pic">
+              <img src="Images/home-appliance/9.jpeg" class="food-img">
+            </div>
+            <h2 class="food-title">Hot Box</h2>
+            <span class="food-price">$449</span>
+            <ion-icon name="cart" class="add-cart"></ion-icon>
+          </div>
+        </div>
+      </div>
+     
+      
+     
+
+
+	
+   </div>
+   <script src=""></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>

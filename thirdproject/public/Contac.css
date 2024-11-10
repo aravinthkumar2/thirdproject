@@ -1,0 +1,113 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#Contact {
+    background-color: #08071d;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:darkgray;
+    
+}
+
+#Contact form {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#Contact form h1 {
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+#Contact form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background: none;
+    border-bottom: 2px solid black;
+    
+}
+
+#Contact form input::placeholder {
+    color:black;
+}
+
+#Contact form #mobile,
+#Contact form #last_name {
+    margin-left: 20px;
+}
+
+#Contact form h4 {
+    color: black;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+#Contact form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+#Contact form textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+#Contact form textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194, 194, 194, 0.713);
+}
+
+#Contact form #button {
+    border: none;
+    background: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+}
+
+#Contact form #button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
